@@ -18,15 +18,15 @@ export class AppComponent implements OnInit{
     this.section4 = document.getElementById("section4");
 
     document.addEventListener("scroll",(e)=>{
-        this.location = window.pageYOffset;
+        this.location = window.pageYOffset + 40;
         console.log(this.location);
     })
   }
 
   isActive(key) {
 
-      if (this.location+40 > this[key].offsetTop && this.location+40 < this[key].offsetTop + this[key].offsetHeight ){
-          return "active";
+      if (this.location > this[key].offsetTop && this.location < this[key].offsetTop + this[key].offsetHeight ){
+          return "";
       } else {
           return "notActive";
       }

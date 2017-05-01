@@ -1,82 +1,3 @@
-html, body {
-      margin: 0;
-      padding: 0;
-      background: #ebebeb;
-    }
-    body, button {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    }
-    h1 {
-      padding-top: 50px;
-    }
-    img {
-      max-width: 100%;
-    }
-    nav {
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      right: 0;
-      background: #fff;
-      background: rgba(255, 255, 255, 0.8);
-    }
-    nav li, nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      text-align: center
-    }
-    nav li, nav a {
-      display: inline-block;
-    }
-    nav a {
-      padding: 20px;
-      color: #333;
-      text-decoration: none;
-    }
-    a:hover {
-      background: #fff;
-    }
-    a.active {
-      background: #00AC7F;
-      color: #fff;
-    }
-    .wrap {
-      position: relative;
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 50px 20px;
-    }
-    section {
-      padding: 50px 0 30px 0;
-    }
-    footer {
-      text-align: center;
-    }
-    button {
-      font-size: 18px;
-      border: 0;
-      padding: 15px 30px;
-      background: #00AC7F;
-      color: #fff;
-      cursor: pointer;
-    }
-
-/*#iceland {
-  position: relative;
-  width: 100%;
-  /*background-image: url("./../assets/iceland.jpg");*/
-/*}
-
-h2 {
-  position: absolute;
-  top: 200px;
-  left: 200px;
-  width: 100%;
-  color: white;
-}
-
 body {
   position: relative;
 }
@@ -85,4 +6,4 @@ body {
 #section2 {padding-top:50px;height:500px;color: #000000; background-color: #ffffff;}
 #section3 {padding-top:50px;height:500px;color: #000000; background-color: #ffffff;}
 #section41 {padding-top:50px;height:500px;color: #000000; background-color: #ffffff;}
-#section42 {padding-top:50px;height:500px;color: #000000; background-color: #ffffff;}*/
+#section42 {padding-top:50px;height:500px;color: #000000; background-color: #ffffff;}

@@ -7,3 +7,12 @@ body {
 #section3 {padding-top:50px;height:500px;color: #000000; background-color: #ffffff;}
 #section41 {padding-top:50px;height:500px;color: #000000; background-color: #ffffff;}
 #section42 {padding-top:50px;height:500px;color: #000000; background-color: #ffffff;}
+
+.active {
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+.notActive{
+    opacity:0.5;
+}
